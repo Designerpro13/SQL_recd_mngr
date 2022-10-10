@@ -1,7 +1,5 @@
 import mysql.connector as sql
 import sys
-import os
-os.chdir('G:\\1Platinum')
 #connect to mysql database
 db=sql.connect(host="localhost",user="root",passwd="rithu2005",database="mysql")
 con=sql.connect(**db)
